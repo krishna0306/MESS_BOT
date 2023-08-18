@@ -1,6 +1,6 @@
 # MESS_BOT
 Welcome to the College Inquiry Chatbot repository! This project features an AI-powered chatbot built with IBM Watson Assistant to provide quick and accurate responses to inquiries related to the VIT Vellore college mess. 
-# CLICK IT - http://surl.li/kcknk
+# CLICK IT - http://surl.li/kcknk #(RUNS ON IBM SERVER DEPLOYED ON WATSON)
 
 
 # Bot Queries JSON File
