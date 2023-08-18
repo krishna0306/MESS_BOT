@@ -23,6 +23,10 @@ Copy code
   "prompts": [
     {
       "prompt": "Greeting",
+
+Uploading BOT_WORKING (2).mp4…
+
+
       "queries": [
         "Hello",
         "Hi",
