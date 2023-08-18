@@ -24,7 +24,7 @@ Copy code
     {
       "prompt": "Greeting",
 
-Uploading BOT_WORKING (2).mp4…
+https://github.com/krishna0306/MESS_BOT/assets/94451390/c11fbece-0e08-4340-b9af-d0f0a0224221
 
 
       "queries": [
@@ -37,6 +37,10 @@ Uploading BOT_WORKING (2).mp4…
       "prompt": "Menu Inquiry",
       "queries": [
         "What's for lunch today?",
+
+Uploading BOT_WORKING (2).mp4…
+
+
         "Tell me about today's menu",
         "What's on the menu?"
       ]
