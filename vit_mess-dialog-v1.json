@@ -1,0 +1,915 @@
+{
+  "name": "vit_mess-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 21,
+    "entities": 5,
+    "dialog_nodes": 21
+  },
+  "status": "Available",
+  "created": "2023-08-15T10:57:10.201Z",
+  "updated": "2023-08-15T10:57:10.201Z",
+  "language": "en",
+  "skill_id": "3b0c5104-2854-4ea1-bf27-6e915c378d55",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2023-08-15T10:57:10.201Z",
+    "intents": [
+      {
+        "intent": "mess_number",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "how many mess are there in vit vellore ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Thank_you",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "thnx",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "Thank you]",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "thank you",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "much appreciated",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "okk",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "okk then",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "wow",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "great",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "cool",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "thanks",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "special_mess_enquiry",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "is special mess beneficial for non-veg?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "mess_food",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "what are the types of food available ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "quality_mess",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "how is the mess of vit",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "weekend_menu",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "Is there a special menu for weekends or holidays?\"",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "complains",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "where can i complain about the mess or food or issue with mess service",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "chit_chat",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "how are you",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "abt_mess",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "how is the mess of vit",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "mess_distance",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "are mess far away frm hostels ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "veg_menu",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "veg mess is good or bad ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Greetings",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "good mornung",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "hii",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "good morning",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "hey",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "hello",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "good afternoon",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          },
+          {
+            "text": "good evening",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "mess_timing",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "what is the timing of mess",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "best_mess",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "which is the best mess out of all ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "night_canteen",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "is there a night canteen available ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "greeting_added",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "who is your developer ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "mess_fees",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "what is the fees of mess per semester ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "jain_mess",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "does mess has a Jain section seperately ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "menu_today",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "whats the menu today .",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "change_mess",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "can we change the mess each semester ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "north_indian_food",
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "examples": [
+          {
+            "text": "is north indian food available there ?",
+            "created": "2023-08-15T10:57:12.902Z",
+            "updated": "2023-08-15T10:57:12.902Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2023-08-15T10:57:10.201Z",
+    "entities": [
+      {
+        "entity": "sys-date",
+        "values": [],
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z"
+      },
+      {
+        "entity": "sys-time",
+        "values": [],
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z"
+      },
+      {
+        "entity": "sys-number",
+        "values": [],
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z"
+      },
+      {
+        "entity": "sys-currency",
+        "values": [],
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z"
+      },
+      {
+        "entity": "sys-percentage",
+        "values": [],
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z"
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 21,
+          "entities": 5,
+          "dialog_nodes": 21
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "about_mess",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "well, the mess of vit is big and very well lighted and the decorum is also sexy ."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#abt_mess",
+        "dialog_node": "node_7_1692023765066",
+        "previous_sibling": "node_2_1692023702409"
+      },
+      {
+        "type": "standard",
+        "title": "mess_fees",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "veg - 51K per year \nNon-veg - 57K per year\nSpecial -60 K per year ( adviced to take this only as its th best ...and dont compro on Food!!!!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#mess_fees",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_4_1691944374577",
+        "previous_sibling": "node_1_1691944188230"
+      },
+      {
+        "type": "standard",
+        "title": "north_indian_food",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "yes north indian food is available there .\nsome example menu are :Lunch\nRice\nDal\nSambar\nRassam\nRoti/ nan / chappati / Phulka\nPickle\nSome Vegetable Fry\nCurd / butter milk\nWheel Chips (Alternate Days)\nPapad / potato fry\nSnacks\nTea\nCoffee\nPakora/Cutlet/Sandwich/ Burger/ Vada/Samos/Bread Bhaji\nDinner\nFruit (usually banana, sometimes guavas and oranges)\nAny one sweet (on Alternate Days)\nRoti\nDal\nPhulka\nSome kind of a Special Rice.\nCurry\nMilk\nCoffee"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#north_indian_food",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_8_1691945406325",
+        "previous_sibling": "node_4_1691945267645"
+      },
+      {
+        "type": "standard",
+        "title": "night_canteen",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "yes ..night canteen is avaiable form 10:30 - 12:30 pm at night . "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#night_canteen",
+        "dialog_node": "node_2_1691950838218",
+        "previous_sibling": "node_8_1691945406325"
+      },
+      {
+        "type": "standard",
+        "title": "menu_today",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "well todays menu is :"
+                },
+                {
+                  "text": "2 Glasses of juice, you can take more as nobody’s really watching you.\nPlain Dosa (served every alternate day)\nTea\nCoffee\nCornflakes\nCold milk to go with the cornflakes\nAn Indian dish (sambar, chutney, idly, poori, Pongal, bhaji, vada)\nAny prep of egg (boiled, scrambled, omelette)\nBread\nFrench Toast\nButter, jam\nLunch\nSweet (Gulab jamun/ Peda / jalebi)\nRice\nDal\nSambar\nRasam\nRoti/ nan / chappati / Phulka\nSome sabji\nAnother special curry (chicken is served on alternate days)\nChicken Biryani (only on Sundays)\nChicken tandoori (twice a month)\nSalad\nCurd / butter milk\nWheel Chips (Alternate Days)\nPapad / potato fry\nSnacks\nTea\nCoffee\nPakora/Cutlet/Sandwich/ Burger/ Vada/Samosa/Bread Bhaji"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#menu_today",
+        "dialog_node": "node_2_1692024036010",
+        "previous_sibling": "node_7_1692023765066"
+      },
+      {
+        "type": "standard",
+        "title": "chit_chat",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "my developer is good ..so am i ......well what about you dear ?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#chit_chat",
+        "dialog_node": "node_2_1692023702409",
+        "previous_sibling": "node_7_1691951713852"
+      },
+      {
+        "type": "standard",
+        "title": "weekend_menu",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "yes , you will gey Biryani (very tasty )  and ice-creams for sure along with 1 special sweets . "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#weekend_menu",
+        "dialog_node": "node_5_1691951878071",
+        "previous_sibling": "node_9_1691943259670"
+      },
+      {
+        "type": "standard",
+        "title": "mess_food",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Special Mess\nThe Darling Special Mess and PR Special Mess are considered to be the best among all other messes. They serve a wide variety of items for breakfast, lunch and dinner. The quality of food here is good and the staff here keep up cleanliness.\n\nBreakfast\n2 Glasses of juice, you can take more as nobody’s really watching you.\nPlain Dosa (served every alternate day)\nTea\nCoffee\nCornflakes\nCold milk to go with the cornflakes\nAn Indian dish (sambar, chutney, idly, poori, Pongal, bhaji, vada)\nAny prep of egg (boiled, scrambled, omelette)\nBread\nFrench Toast\nButter, jam\n\nLunch\n\nSweet (Gulab jamun/ Peda / jalebi)\nRice\nDal\nSambar\nRasam\nRoti/ nan / chappati / Phulka\nSome sabji\nAnother special curry (chicken is served on alternate days)\nChicken Biryani (only on Sundays)\nChicken tandoori (twice a month)\nSalad\nCurd / butter milk\nWheel Chips (Alternate Days)\nPapad / potato fry\n\nSnacks\nTea\nCoffee\nPakora/Cutlet/Sandwich/ Burger/ Vada/Samosa/Bread Bhaji\n\nDinner\n\nFruit (usually banana, sometimes guavas and oranges)\nRoti\nSoup\nDal\nSome preparation of paneer (alternate days)\nSome kind of special rice\nCurry\nCucumbers or onion\nNoodles (once a week)\nMilk\nDal"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#mess_food",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_9_1691944543498",
+        "previous_sibling": "node_4_1691944374577"
+      },
+      {
+        "type": "standard",
+        "title": "Greetings",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hiiii!! Are you looking for answers for doubts about VIT-VELLORE Mess ..... I can help You !!"
+                },
+                {
+                  "text": "hello ....I can answer Your Queries About mess !!"
+                },
+                {
+                  "text": "HOPE UR DAY IS GOING GOOD !!!!!!!!!!!!!!!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#Greetings",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_9_1691839541186",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "jain_mess",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "yes , VIT-Vellore has a seperate section of Jain Mess in Every veg mess.... But the food is Fcking hell .."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#jain_mess",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_9_1691943259670",
+        "previous_sibling": "node_9_1691873284581"
+      },
+      {
+        "type": "standard",
+        "title": "complain",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "yes  you can complain about the service @ Warden (Food) -\n Dr. Hemadri Reddy Reganit\nEmail-id : warden.food@vit.ac.in\nMobile No : 0416 - 220 2528"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#complains",
+        "dialog_node": "node_7_1691951713852",
+        "previous_sibling": "node_5_1691945865367"
+      },
+      {
+        "type": "standard",
+        "title": "mess_timing",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Breakfast:- 7AM -9 AM\nLunch:-12.30 pm- 2.30pm\nsnacks - 5:00 - 6:00 pm\nDinner:- 7.30pm -9.00pm"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#mess_timing",
+        "dialog_node": "node_4_1691945267645",
+        "previous_sibling": "node_9_1691944543498"
+      },
+      {
+        "type": "standard",
+        "title": "best_mess",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "PR mess is the best according to feedbacks of students"
+                },
+                {
+                  "text": "every mess is best except zenith and SRCC."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#best_mess",
+        "dialog_node": "node_9_1691873284581",
+        "previous_sibling": "node_3_1691945703676"
+      },
+      {
+        "type": "standard",
+        "title": "mess_number",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well , as no of blocks ..so the mess ..so total in all there are 16 mess as of now ."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#mess_number",
+        "dialog_node": "node_1_1692024102176",
+        "previous_sibling": "node_2_1692024036010"
+      },
+      {
+        "type": "standard",
+        "title": "Thank_you",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Pleasure Was all Mine !! I am  Glad i was able to help You.."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#Thank_you",
+        "dialog_node": "node_5_1691839686597",
+        "previous_sibling": "node_6_1691951598334"
+      },
+      {
+        "type": "standard",
+        "title": "mess_distance",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "no they are inside the blocks only ..so u can use lift to go ,,or stairs ...no Inter-blocks distance"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#mess_distance",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_1_1691944188230",
+        "previous_sibling": "node_5_1691951878071"
+      },
+      {
+        "type": "standard",
+        "title": "change_mess",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "yes , you can change mess each month @ hostel office ..or can contact the Food warden"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#change_mess",
+        "dialog_node": "node_6_1691951598334",
+        "previous_sibling": "node_2_1691950838218"
+      },
+      {
+        "type": "standard",
+        "title": "quality_mes",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "The quality of mess is good. lunch is very good ...dinner is Okayish...  \nBoT's Suggestion :  Take special mess........"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#quality_mess",
+        "dialog_node": "node_3_1691945703676",
+        "previous_sibling": "node_1_1692024102176"
+      },
+      {
+        "type": "standard",
+        "title": "greeting_added",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I was Developed In Patna  August 2023 By Krishna\nInsta id : krish__na07"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "#greeting_added",
+        "dialog_node": "node_5_1691945865367",
+        "previous_sibling": "node_9_1691839541186"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "THIS BOT IS Not your Servant ....Ask viable questions only...or else contact my developer - \nkrishna\ninsta_id - krish__na07\nphone_number-   +91-9931686299\nOr mail us at -------- radheloyla@gmail.com for tech.related queries..."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_5_1691839686597",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello.I am a VIT-VELLORE Mess recommendation and queries solver engine ...Developed by krishna and maintained By ............Krishna PVT. Ltd ."
+                },
+                {
+                  "text": "welcome to krishna Kingdommm idiots .................. ............"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-15T10:57:12.902Z",
+        "updated": "2023-08-15T10:57:12.902Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "learning_opt_out": false
+  },
+  "description": "nn",
+  "assistant_id": "9cdadb5e-cf19-41dc-b744-62341ae5496d",
+  "dialog_settings": {
+    "source_assistant": "6408eb5e-daa3-42f1-a0cf-2d3a9ddb3044"
+  },
+  "assistant_references": [
+    {
+      "name": "vit_mess",
+      "assistant_id": "6408eb5e-daa3-42f1-a0cf-2d3a9ddb3044",
+      "skill_reference": "main skill"
+    }
+  ]
+}
