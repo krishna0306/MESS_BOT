@@ -55,6 +55,8 @@ Modify or update existing prompts and queries as your bot's conversation abiliti
 Contact:
 
 For questions, suggestions, or collaborations, please reach out to Your Name or visit GitHub Profile.
+![image](https://github.com/krishna0306/MESS_BOT/assets/94451390/fa3ca9b0-b9d8-4634-a9db-5b757132ccd7)
+
 
 # License:
 
