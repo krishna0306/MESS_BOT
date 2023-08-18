@@ -1,0 +1,45 @@
+Running the Chatbot on IBM Cloud
+To deploy and run the College Inquiry Chatbot on IBM Cloud, follow these steps:
+
+Prerequisites
+IBM Cloud Account: Make sure you have an active IBM Cloud account. If you don't have one, you can sign up here.
+
+IBM Watson Assistant Service: Create an instance of the IBM Watson Assistant service on IBM Cloud. You can do this by following these steps:
+
+Log in to your IBM Cloud account.
+Click on "Create Resource" and search for "Watson Assistant."
+Select the Watson Assistant service and follow the prompts to create an instance.
+Deployment Steps
+Clone the Repository:
+
+Clone this GitHub repository to your local machine using git clone.
+Configure IBM Watson Assistant:
+
+Open the IBM Watson Assistant instance you created in your IBM Cloud account.
+Import the provided dialog, intents, and entities from the bot_queries.json file located in this repository.
+Customize and extend the components as needed to match your chatbot's capabilities.
+IBM Cloud CLI Installation (Optional):
+
+Install the IBM Cloud Command Line Interface (CLI) on your local machine. You can find installation instructions here.
+Push to IBM Cloud:
+
+Open a terminal window and navigate to the cloned repository directory.
+Log in to IBM Cloud using the CLI:
+Copy code
+ibmcloud login
+Target the desired IBM Cloud region (if not already set):
+php
+Copy code
+ibmcloud target -r <region>
+Push your chatbot to IBM Cloud using the following command:
+perl
+Copy code
+ibmcloud cf push <app-name>
+Replace <app-name> with a unique name for your application.
+Access the Chatbot:
+
+Once the deployment is complete, you will receive a URL where your chatbot is hosted on IBM Cloud.
+Open a web browser and navigate to the provided URL to interact with your College Inquiry Chatbot.
+Usage and Support
+Interact with the chatbot using natural language queries related to VIT Vellore college mess inquiries.
+For any questions, suggestions, or technical support, please reach out to Your Name or visit GitHub Profile.
